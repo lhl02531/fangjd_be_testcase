@@ -1,0 +1,96 @@
+{
+	"id": "fd226f6f-80b7-47ab-8e90-87b22da1a826",
+	"name": "fang_jingdong",
+	"timestamp": "2024-01-06T17:16:27.707Z",
+	"collection_id": "5129494-fa748f83-8ec5-49d6-9afd-f7f43aa6c43e",
+	"folder_id": "5129494-058c3a65-ade1-4e30-bd7d-fa509128c922",
+	"environment_id": "5129494-8be4a53a-73dc-4423-baaf-6690b5519d19",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-01-06T17:16:27.305Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "dc666fee-f239-41ce-8b75-9626c48fb677",
+			"name": "createOrder",
+			"url": "localhost:3000/api/order",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is  0": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is  0": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				27
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is  0": true
+				}
+			]
+		},
+		{
+			"id": "9305e56f-922b-483b-a952-5800d489a25d",
+			"name": "getOrderList",
+			"url": "localhost:3000/api/order",
+			"time": 18,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is  0": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is  0": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				18
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is  0": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 45,
+	"collection": {
+		"requests": [
+			{
+				"id": "dc666fee-f239-41ce-8b75-9626c48fb677",
+				"method": "POST"
+			},
+			{
+				"id": "9305e56f-922b-483b-a952-5800d489a25d",
+				"method": "GET"
+			}
+		]
+	}
+}

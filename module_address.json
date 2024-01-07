@@ -1,0 +1,392 @@
+{
+	"id": "0cefa041-52bd-4eed-972a-ba8c334a1db7",
+	"name": "fang_jingdong",
+	"timestamp": "2024-01-07T16:12:46.126Z",
+	"collection_id": "5129494-fa748f83-8ec5-49d6-9afd-f7f43aa6c43e",
+	"folder_id": "5129494-5b5319c1-d3df-4db6-97e3-5974e3983166",
+	"environment_id": "5129494-8be4a53a-73dc-4423-baaf-6690b5519d19",
+	"totalPass": 18,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-01-07T16:12:44.881Z",
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "78e6ef78-6834-4348-a58d-99c5ea75a272",
+			"name": "succ-getAddressList",
+			"url": "localhost:3000/api/user/address",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is  0": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is  0": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is  0": true
+				}
+			]
+		},
+		{
+			"id": "41382cdc-53e2-44d9-90c3-0070a30a0429",
+			"name": "succ-addNewAddress",
+			"url": "localhost:3000/api/user/address",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is  0": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is  0": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is  0": true
+				}
+			]
+		},
+		{
+			"id": "c967ce24-b53d-4ed0-b078-c289287d3ee7",
+			"name": "fail-addNewAddress",
+			"url": "localhost:3000/api/user/address",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is  20021": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is  20021": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is  20021": true
+				}
+			]
+		},
+		{
+			"id": "7b0e46e3-23e1-45e2-8ad0-e2317b26ea0d",
+			"name": "succ-getAddressByAid",
+			"url": "localhost:3000/api/user/address/aid/659acd7d0de41b0e5fbc9672",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is  0": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is  0": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is  0": true
+				}
+			]
+		},
+		{
+			"id": "183da796-cfaa-45ae-adea-de014b98dd21",
+			"name": "fail-getAddressByAid-wrongid",
+			"url": "localhost:3000/api/user/address/aid/123",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is  20024": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is  20024": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is  20024": true
+				}
+			]
+		},
+		{
+			"id": "5b4409a9-0575-41b8-8174-05e5ab09644d",
+			"name": "succ-updateAddress",
+			"url": "localhost:3000/api/user/address/aid/659acd7d0de41b0e5fbc9672",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is  0": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is  0": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is  0": true
+				}
+			]
+		},
+		{
+			"id": "926fc2fb-f4bd-43df-bc68-4af798c18458",
+			"name": "fail-updateAddress",
+			"url": "localhost:3000/api/user/address/aid/659acd7d0de41b0e5fbc9672",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is  20022": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is  20022": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is  20022": false
+				}
+			]
+		},
+		{
+			"id": "1cdf87dd-8a3b-4ef8-8dda-348f7eb4ef30",
+			"name": "succ-delAddress",
+			"url": "localhost:3000/api/user/address/aid/659acd7d0de41b0e5fbc9672",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is  0": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is  0": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is  0": true
+				}
+			]
+		},
+		{
+			"id": "c4600527-68fe-409e-a229-f6b15d0d4b73",
+			"name": "fail-delAddress",
+			"url": "localhost:3000/api/user/address/aid/659acd7d0de41b0e5fbc9672",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is  20023": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is  20023": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is  20023": false
+				}
+			]
+		},
+		{
+			"id": "293612a2-a434-450f-b584-d1bf358dc587",
+			"name": "succ-getDefaultAddress",
+			"url": "localhost:3000/api/user/address/default",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is  0": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is  0": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is  0": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 87,
+	"collection": {
+		"requests": [
+			{
+				"id": "78e6ef78-6834-4348-a58d-99c5ea75a272",
+				"method": "GET"
+			},
+			{
+				"id": "41382cdc-53e2-44d9-90c3-0070a30a0429",
+				"method": "POST"
+			},
+			{
+				"id": "c967ce24-b53d-4ed0-b078-c289287d3ee7",
+				"method": "POST"
+			},
+			{
+				"id": "7b0e46e3-23e1-45e2-8ad0-e2317b26ea0d",
+				"method": "GET"
+			},
+			{
+				"id": "183da796-cfaa-45ae-adea-de014b98dd21",
+				"method": "GET"
+			},
+			{
+				"id": "5b4409a9-0575-41b8-8174-05e5ab09644d",
+				"method": "PATCH"
+			},
+			{
+				"id": "926fc2fb-f4bd-43df-bc68-4af798c18458",
+				"method": "PATCH"
+			},
+			{
+				"id": "1cdf87dd-8a3b-4ef8-8dda-348f7eb4ef30",
+				"method": "DELETE"
+			},
+			{
+				"id": "c4600527-68fe-409e-a229-f6b15d0d4b73",
+				"method": "DELETE"
+			},
+			{
+				"id": "293612a2-a434-450f-b584-d1bf358dc587",
+				"method": "GET"
+			}
+		]
+	}
+}

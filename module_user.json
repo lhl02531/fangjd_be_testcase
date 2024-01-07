@@ -1,0 +1,244 @@
+{
+	"id": "0ae347be-0f63-47ca-8c20-aa4ae660c2f0",
+	"name": "fang_jingdong",
+	"timestamp": "2024-01-06T17:10:53.489Z",
+	"collection_id": "5129494-fa748f83-8ec5-49d6-9afd-f7f43aa6c43e",
+	"folder_id": 0,
+	"environment_id": "5129494-8be4a53a-73dc-4423-baaf-6690b5519d19",
+	"totalPass": 12,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-01-06T17:10:52.750Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "6c25e5d9-6255-4a27-8a55-59eade502966",
+			"name": "succ-register",
+			"url": "localhost:3000/api/user/register",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is 0": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is 0": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is 0": true
+				}
+			]
+		},
+		{
+			"id": "3fc8f5b9-bb18-4887-9a77-15e63ca9e5f7",
+			"name": "error-username_fail",
+			"url": "localhost:3000/api/user/login",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is 1002": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is 1002": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is 1002": true
+				}
+			]
+		},
+		{
+			"id": "9af5e2b3-645f-433c-93da-65c29020133d",
+			"name": "error-password_fail",
+			"url": "localhost:3000/api/user/login",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is 1002": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is 1002": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is 1002": true
+				}
+			]
+		},
+		{
+			"id": "8d8b7032-11f3-475f-ae5f-11b4ef88a93b",
+			"name": "error-username_repeat_fail",
+			"url": "localhost:3000/api/user/register",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is 1001": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is 1001": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				8
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is 1001": true
+				}
+			]
+		},
+		{
+			"id": "ed2d3a74-cb92-41f3-b217-acf0c81c82f7",
+			"name": "error-username_confirmpassword_fail",
+			"url": "localhost:3000/api/user/register",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is 1002": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is 1002": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				7
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is 1002": true
+				}
+			]
+		},
+		{
+			"id": "d0c27575-66c2-4e69-9fb6-9c7160a924e7",
+			"name": "succ-login",
+			"url": "localhost:3000/api/user/login",
+			"time": 12,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"errno is 0": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"errno is 0": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"errno is 0": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 48,
+	"collection": {
+		"requests": [
+			{
+				"id": "6c25e5d9-6255-4a27-8a55-59eade502966",
+				"method": "POST"
+			},
+			{
+				"id": "3fc8f5b9-bb18-4887-9a77-15e63ca9e5f7",
+				"method": "POST"
+			},
+			{
+				"id": "9af5e2b3-645f-433c-93da-65c29020133d",
+				"method": "POST"
+			},
+			{
+				"id": "8d8b7032-11f3-475f-ae5f-11b4ef88a93b",
+				"method": "POST"
+			},
+			{
+				"id": "ed2d3a74-cb92-41f3-b217-acf0c81c82f7",
+				"method": "POST"
+			},
+			{
+				"id": "d0c27575-66c2-4e69-9fb6-9c7160a924e7",
+				"method": "POST"
+			}
+		]
+	}
+}
